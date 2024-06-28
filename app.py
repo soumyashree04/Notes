@@ -34,7 +34,7 @@ def login():
             else:
                 if username not in passwords:
                     passwords[username]=password
-                    flash("You are now registered! Login to continue")
+                    flash("You are now successfully registered! Login to continue")
                     return redirect('/')
                 else:
                     flash("You are already registered!")
