@@ -29,7 +29,7 @@ def login():
                     return redirect('/')
                 else:
                     print(passwords)
-                    flash("need to register first")
+                    flash("Need to register first")
                     return redirect('/')
             else:
                 if username not in passwords:
